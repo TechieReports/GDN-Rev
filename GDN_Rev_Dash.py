@@ -3,18 +3,16 @@ import pandas as pd
 
 # Updated account ranges
 account_ranges = {
-    "Inuvo GDN APD1": range(336466, 336601),
-    "Inuvo GDN APD2": range(264800, 264971),
-    "Inuvo GDN APD4": range(336183, 336301),
-    "Inuvo GDN APD5": range(327781, 336114),
-    "Inuvo GDN APD6": range(265100, 265251),
-    "Inuvo GDN APD7": range(265700, 265774),
-    "Inuvo GDN APPD8": range(336301, 336351),
-    "Inuvo GDN APPD9": range(336351, 336401),
-    "Inuvo GDN APD10": range(336676, 336726),
-    "Inuvo GDN APD11": range(336901, 336968),
-    "Inuvo INR 008 (PST)": range(266001, 266406),  # New range
-    "Inuvo INR 009 (PST)": range(336601, 336676),  # New range
+    "Inuvo GDN APPD1": range(336466, 336600),
+    "Inuvo GDN APPD2": range(264800, 264970),
+    "Inuvo GDN APPD4": range(336801, 336900),    
+    "Inuvo GDN APPD6": range(265100, 265250),
+    "Inuvo GDN APPD7": range(265700, 265773),
+    "Inuvo GDN APPD8": range(336241, 336350),
+    "Inuvo GDN APPD9": list(range(336351, 336400)) + list(range(327781, 327781)) + list(range(335967, 336015)),
+    "Inuvo GDN APPD10": range(336601, 336750),
+    "Inuvo GDN APPD11": list(range(336901, 336967)) + list(range(336051, 336113)),
+    "Inuvo GDN APPD12 ONE CLICK": range(227929, 229885),
 }
 
 # Function to assign campaigns to accounts
