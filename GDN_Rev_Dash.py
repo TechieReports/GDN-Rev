@@ -9,6 +9,7 @@ account_ranges = {
     "Inuvo GDN APPD6": range(265100, 265250),
     "Inuvo GDN APPD7": range(265700, 265773),
     "Inuvo GDN APPD8": range(336241, 336350),
+    "Inuvo GDN MCC PST-1": range(336160, 336240),
     "Inuvo GDN APPD9": list(range(336351, 336400)) + list(range(327781, 327781)) + list(range(335967, 336015)),
     "Inuvo GDN APPD10": range(336601, 336750),
     "Inuvo GDN APPD11": list(range(336901, 336967)) + list(range(336051, 336113)),
